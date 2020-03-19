@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="39d6337dce4747c28bca2f4d226f998c" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="FastMan2V.ActividadMantenimientoPredictivo" Width="1.5" PointX="22.75" PointY="88.625" />
+        <EntityTypeShape EntityType="FastMan2V.Alerta" Width="1.5" PointX="7.5" PointY="116.875" />
+        <EntityTypeShape EntityType="FastMan2V.AlertaMensaje" Width="1.5" PointX="9.75" PointY="116.875" />
+        <EntityTypeShape EntityType="FastMan2V.AlertaNivelUsuario" Width="1.5" PointX="12" PointY="116.875" />
+        <EntityTypeShape EntityType="FastMan2V.Area" Width="1.5" PointX="5.25" PointY="76.75" />
+        <EntityTypeShape EntityType="FastMan2V.BackLog" Width="1.5" PointX="17.25" PointY="83.5" />
+        <EntityTypeShape EntityType="FastMan2V.BackLogMaterial" Width="1.5" PointX="23.5" PointY="80.375" />
+        <EntityTypeShape EntityType="FastMan2V.BackLogPuesto" Width="1.5" PointX="22.5" PointY="83.875" />
+        <EntityTypeShape EntityType="FastMan2V.BackLogRefaccion" Width="1.5" PointX="19.5" PointY="67.5" />
+        <EntityTypeShape EntityType="FastMan2V.CaracteristicasUnidad" Width="1.5" PointX="14.25" PointY="75.75" />
+        <EntityTypeShape EntityType="FastMan2V.CatalogoEvento" Width="1.5" PointX="12.75" PointY="88.25" />
+        <EntityTypeShape EntityType="FastMan2V.CategoriaUnidad" Width="1.5" PointX="7.5" PointY="66.875" />
+        <EntityTypeShape EntityType="FastMan2V.ContratoGarantia" Width="1.5" PointX="3" PointY="51.375" />
+        <EntityTypeShape EntityType="FastMan2V.DetalleGuiaServicio" Width="1.5" PointX="15.25" PointY="88.625" />
+        <EntityTypeShape EntityType="FastMan2V.DetalleGuiaServiciosMaterial" Width="1.5" PointX="22.5" PointY="76.25" />
+        <EntityTypeShape EntityType="FastMan2V.DetalleGuiaServiciosPuesto" Width="1.5" PointX="20.5" PointY="80.25" />
+        <EntityTypeShape EntityType="FastMan2V.DetalleGuiaServiciosRefaccion" Width="1.5" PointX="19.5" PointY="75.625" />
+        <EntityTypeShape EntityType="FastMan2V.DetalleMantenimientoPredictivo" Width="1.5" PointX="20.5" PointY="71" />
+        <EntityTypeShape EntityType="FastMan2V.DetalleOrdenTrabajo" Width="1.5" PointX="9.75" PointY="83.375" />
+        <EntityTypeShape EntityType="FastMan2V.DetallePlanTrabajoTrabajador" Width="1.5" PointX="20.25" PointY="86.5" />
+        <EntityTypeShape EntityType="FastMan2V.Elemento" Width="1.5" PointX="7.5" PointY="101.25" />
+        <EntityTypeShape EntityType="FastMan2V.Empresa" Width="1.5" PointX="0.75" PointY="76.5" />
+        <EntityTypeShape EntityType="FastMan2V.EstadoGuiaInspeccion" Width="1.5" PointX="7.5" PointY="104.625" />
+        <EntityTypeShape EntityType="FastMan2V.EstatusOrdenTrabajo" Width="1.5" PointX="7.5" PointY="61" />
+        <EntityTypeShape EntityType="FastMan2V.EventosGuiaInspeccion" Width="1.5" PointX="20.25" PointY="89.375" />
+        <EntityTypeShape EntityType="FastMan2V.GuiaInspeccion" Width="1.5" PointX="18" PointY="88.125" />
+        <EntityTypeShape EntityType="FastMan2V.GuiaServicio" Width="1.5" PointX="13" PointY="71" />
+        <EntityTypeShape EntityType="FastMan2V.IndicadorGuiaInspeccion" Width="1.5" PointX="20.25" PointY="96.25" />
+        <EntityTypeShape EntityType="FastMan2V.InsumosGuiaInspeccion" Width="1.5" PointX="25.25" PointY="84" />
+        <EntityTypeShape EntityType="FastMan2V.MantenimientoPredictivo" Width="1.5" PointX="18.25" PointY="72.375" />
+        <EntityTypeShape EntityType="FastMan2V.MantenimientoPredictivoMaterial" Width="1.5" PointX="26" PointY="79.25" />
+        <EntityTypeShape EntityType="FastMan2V.MantenimientoPredictivoPuesto" Width="1.5" PointX="28" PointY="83.25" />
+        <EntityTypeShape EntityType="FastMan2V.MantenimientoPredictivoRefaccion" Width="1.5" PointX="25" PointY="72.625" />
+        <EntityTypeShape EntityType="FastMan2V.Marca" Width="1.5" PointX="7.5" PointY="63.75" />
+        <EntityTypeShape EntityType="FastMan2V.Material" Width="1.5" PointX="10.5" PointY="71.375" />
+        <EntityTypeShape EntityType="FastMan2V.Modelo" Width="1.5" PointX="9.75" PointY="63.875" />
+        <EntityTypeShape EntityType="FastMan2V.NivelUsuario" Width="1.5" PointX="7.5" PointY="95.75" />
+        <EntityTypeShape EntityType="FastMan2V.Operacion" Width="1.5" PointX="7.5" PointY="110.625" />
+        <EntityTypeShape EntityType="FastMan2V.OperacioneNivelUsuario" Width="1.5" PointX="9.75" PointY="110.25" />
+        <EntityTypeShape EntityType="FastMan2V.OrdenTrabajo" Width="1.5" PointX="15.25" PointY="66.625" />
+        <EntityTypeShape EntityType="FastMan2V.PlanTrabajo" Width="1.5" PointX="15" PointY="81.375" />
+        <EntityTypeShape EntityType="FastMan2V.Proceso" Width="1.5" PointX="7.5" PointY="122.5" />
+        <EntityTypeShape EntityType="FastMan2V.Puesto" Width="1.5" PointX="10.5" PointY="78.375" />
+        <EntityTypeShape EntityType="FastMan2V.Refaccion" Width="1.5" PointX="9.75" PointY="55.75" />
+        <EntityTypeShape EntityType="FastMan2V.ResultadoMantenimientoPredictivo" Width="1.5" PointX="22.75" PointY="71.75" />
+        <EntityTypeShape EntityType="FastMan2V.Sistema" Width="1.5" PointX="7.5" PointY="107.25" />
+        <EntityTypeShape EntityType="FastMan2V.SistemaRefacciones" Width="1.5" PointX="7.5" PointY="58.125" />
+        <EntityTypeShape EntityType="FastMan2V.SubProceso" Width="1.5" PointX="9.75" PointY="128" />
+        <EntityTypeShape EntityType="FastMan2V.TipoActividad" Width="1.5" PointX="7.5" PointY="75.25" />
+        <EntityTypeShape EntityType="FastMan2V.TipoContrato" Width="1.5" PointX="7.5" PointY="119.75" />
+        <EntityTypeShape EntityType="FastMan2V.TipoEvento" Width="1.5" PointX="7.5" PointY="98.5" />
+        <EntityTypeShape EntityType="FastMan2V.Trabajador" Width="1.5" PointX="12.75" PointY="80.375" />
+        <EntityTypeShape EntityType="FastMan2V.TrabajadorArea" Width="1.5" PointX="20" PointY="83.625" />
+        <EntityTypeShape EntityType="FastMan2V.TrabajadorProceso" Width="1.5" PointX="9.75" PointY="123.125" />
+        <EntityTypeShape EntityType="FastMan2V.TrabajadorSubProceso" Width="1.5" PointX="12" PointY="125.5" />
+        <EntityTypeShape EntityType="FastMan2V.TrabajadorUbicacion" Width="1.5" PointX="18.625" PointY="80.75" />
+        <EntityTypeShape EntityType="FastMan2V.Turno" Width="1.5" PointX="7.5" PointY="113.5" />
+        <EntityTypeShape EntityType="FastMan2V.Ubicacion" Width="1.5" PointX="3" PointY="77.75" />
+        <EntityTypeShape EntityType="FastMan2V.Unidad" Width="1.5" PointX="12" PointY="63.125" />
+        <EntityTypeShape EntityType="FastMan2V.UnidadArea" Width="1.5" PointX="17.25" PointY="75.625" />
+        <EntityTypeShape EntityType="FastMan2V.UnidadMedida" Width="1.5" PointX="5.25" PointY="55.25" />
+        <EntityTypeShape EntityType="FastMan2V.UnidadProceso" Width="1.5" PointX="14.25" PointY="93.375" />
+        <EntityTypeShape EntityType="FastMan2V.UnidadSubProceso" Width="1.5" PointX="14.25" PointY="97.125" />
+        <EntityTypeShape EntityType="FastMan2V.UnidadUbicacion" Width="1.5" PointX="15.25" PointY="72" />
+        <EntityTypeShape EntityType="FastMan2V.Usuario" Width="1.5" PointX="5.25" PointY="85" />
+        <EntityTypeShape EntityType="FastMan2V.UsuarioArea" Width="1.5" PointX="7.5" PointY="81.5" />
+        <EntityTypeShape EntityType="FastMan2V.UsuarioProceso" Width="1.5" PointX="9.75" PointY="120.125" />
+        <EntityTypeShape EntityType="FastMan2V.UsuarioSubProceso" Width="1.5" PointX="12" PointY="128.5" />
+        <EntityTypeShape EntityType="FastMan2V.Categoria" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FastMan2V.CategoriaDocumentacion" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FastMan2V.Curso" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="FastMan2V.DiaFestivo" Width="1.5" PointX="7.5" PointY="78" />
+        <EntityTypeShape EntityType="FastMan2V.DispositivosLicenciaUsuario" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="FastMan2V.Documentacion" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FastMan2V.DocumentacionUnidad" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="FastMan2V.LicenciaUsuario" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="FastMan2V.Mensaje" Width="1.5" PointX="5.25" PointY="103.5" />
+        <EntityTypeShape EntityType="FastMan2V.TrabajadorLicencia" Width="1.5" PointX="6.75" PointY="3.75" />
+        <AssociationConnector Association="FastMan2V.FK__Actividad__IdDet__04AFB25B" />
+        <AssociationConnector Association="FastMan2V.FK__Actividad__IdEle__03BB8E22" />
+        <AssociationConnector Association="FastMan2V.FK__Actividad__IdSis__02C769E9" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdAct__09746778" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdAct__0E391C95" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdAct__12FDD1B2" />
+        <AssociationConnector Association="FastMan2V.FK__Alerta__IdArea__17F790F9" />
+        <AssociationConnector Association="FastMan2V.FK__AlertaMen__IdAle__1AD3FDA4" />
+        <AssociationConnector Association="FastMan2V.FK__AlertaNiv__IdAle__1DB06A4F" />
+        <AssociationConnector Association="FastMan2V.FK__AlertaNiv__IdNiv__1EA48E88" />
+        <AssociationConnector Association="FastMan2V.FK__Area__IdUbicacio__3C69FB99" />
+        <AssociationConnector Association="FastMan2V.FK__CatalogoE__IdAre__43D61337" />
+        <AssociationConnector Association="FastMan2V.FK__Categoria__IdAre__5AEE82B9" />
+        <AssociationConnector Association="FastMan2V.FK__DiaFestiv__IdAre__3E1D39E1" />
+        <AssociationConnector Association="FastMan2V.FK__Elemento__IdArea__7D439ABD" />
+        <AssociationConnector Association="FastMan2V.FK__EstadoGui__IdAre__47A6A41B" />
+        <AssociationConnector Association="FastMan2V.FK__EstatusOr__IdAre__5E8A0973" />
+        <AssociationConnector Association="FastMan2V.FK__GuiaInspe__IdAre__4D5F7D71" />
+        <AssociationConnector Association="FastMan2V.FK__GuiaServi__IdAre__6166761E" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdAre__793DFFAF" />
+        <AssociationConnector Association="FastMan2V.FK__Marca__IdArea__5DCAEF64" />
+        <AssociationConnector Association="FastMan2V.FK__Material__IdArea__2B0A656D" />
+        <AssociationConnector Association="FastMan2V.FK__Operacion__IdAre__114A936A" />
+        <AssociationConnector Association="FastMan2V.FK__OrdenTrab__IdAre__15DA3E5D" />
+        <AssociationConnector Association="FastMan2V.FK__PlanTraba__IdAre__2EA5EC27" />
+        <AssociationConnector Association="FastMan2V.FK__Proceso__IdArea__45F365D3" />
+        <AssociationConnector Association="FastMan2V.FK__Puesto__IdArea__403A8C7D" />
+        <AssociationConnector Association="FastMan2V.FK__Sistema__IdArea__7A672E12" />
+        <AssociationConnector Association="FastMan2V.FK__SistemaRe__IdAre__245D67DE" />
+        <AssociationConnector Association="FastMan2V.FK__TipoActiv__IdAre__2057CCD0" />
+        <AssociationConnector Association="FastMan2V.FK__TipoContr__IdAre__1A9EF37A" />
+        <AssociationConnector Association="FastMan2V.FK__TipoEvent__IdAre__40F9A68C" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdAre__4F7CD00D" />
+        <AssociationConnector Association="FastMan2V.FK__Turno__IdArea__4A8310C6" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadAre__IdAre__54CB950F" />
+        <AssociationConnector Association="FastMan2V.FK__UsuarioAr__IdAre__03F0984C" />
+        <AssociationConnector Association="FastMan2V.FK__BackLog__IdEleme__30C33EC3" />
+        <AssociationConnector Association="FastMan2V.FK__BackLog__IdSiste__2FCF1A8A" />
+        <AssociationConnector Association="FastMan2V.FK__BackLog__IdUnida__2EDAF651" />
+        <AssociationConnector Association="FastMan2V.FK__BackLogMa__IdBac__339FAB6E" />
+        <AssociationConnector Association="FastMan2V.FK__BackLogPu__IdBac__37703C52" />
+        <AssociationConnector Association="FastMan2V.FK__BackLogRe__IdBac__3B40CD36" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdBac__251C81ED" />
+        <AssociationConnector Association="FastMan2V.FK__BackLogMa__IdMat__3493CFA7" />
+        <AssociationConnector Association="FastMan2V.FK__BackLogPu__IdPue__3864608B" />
+        <AssociationConnector Association="FastMan2V.FK__BackLogRe__IdReF__3C34F16F" />
+        <AssociationConnector Association="FastMan2V.FK__Caracteri__IdUni__68487DD7" />
+        <AssociationConnector Association="FastMan2V.FK__CatalogoE__IdTip__44CA3770" />
+        <AssociationConnector Association="FastMan2V.FK__EventosGu__IdCat__5BAD9CC8" />
+        <AssociationConnector Association="FastMan2V.FK__Unidad__IdCatego__656C112C" />
+        <AssociationConnector Association="FastMan2V.FK__ContratoG__IdEmp__1D7B6025" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdCon__2704CA5F" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdDet__6CD828CA" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdDet__719CDDE7" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdDet__76619304" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdEle__671F4F74" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdGui__681373AD" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdSis__662B2B3B" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdGui__6BE40491" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdMat__6AEFE058" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdGui__6FB49575" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdPue__70A8B9AE" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdGui__756D6ECB" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleGu__IdRef__74794A92" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleMa__IdMan__7D0E9093" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdDet__0880433F" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdDet__0D44F85C" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdDet__1209AD79" />
+        <AssociationConnector Association="FastMan2V.FK__Resultado__IdDet__7FEAFD3E" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdGui__24285DB4" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdMan__27F8EE98" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdMat__2AD55B43" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdOrd__2334397B" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdPue__28ED12D1" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdRef__29E1370A" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdTip__2610A626" />
+        <AssociationConnector Association="FastMan2V.FK__DetalleOr__IdTip__2BC97F7C" />
+        <AssociationConnector Association="FastMan2V.FK__PlanTraba__IdDet__308E3499" />
+        <AssociationConnector Association="FastMan2V.FK__DetallePl__IdPla__336AA144" />
+        <AssociationConnector Association="FastMan2V.FK__DetallePl__IdTra__345EC57D" />
+        <AssociationConnector Association="FastMan2V.FK__Ubicacion__IdEmp__398D8EEE" />
+        <AssociationConnector Association="FastMan2V.FK__Indicador__IdEst__540C7B00" />
+        <AssociationConnector Association="FastMan2V.FK__OrdenTrab__IdEst__17C286CF" />
+        <AssociationConnector Association="FastMan2V.FK__EventosGu__IdGui__5AB9788F" />
+        <AssociationConnector Association="FastMan2V.FK__GuiaInspe__IdTra__4F47C5E3" />
+        <AssociationConnector Association="FastMan2V.FK__GuiaInspe__IdTur__503BEA1C" />
+        <AssociationConnector Association="FastMan2V.FK__GuiaInspe__IdUni__4E53A1AA" />
+        <AssociationConnector Association="FastMan2V.FK__Indicador__IdGui__531856C7" />
+        <AssociationConnector Association="FastMan2V.FK_InsumosGuiaInspeccion_GuiaInspeccion" />
+        <AssociationConnector Association="FastMan2V.FK__GuiaServi__IdMar__625A9A57" />
+        <AssociationConnector Association="FastMan2V.FK__GuiaServi__IdMod__634EBE90" />
+        <AssociationConnector Association="FastMan2V.FK__InsumosGu__IdMat__57DD0BE4" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdUni__7A3223E8" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdMat__078C1F06" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdPue__0C50D423" />
+        <AssociationConnector Association="FastMan2V.FK__Mantenimi__IdRef__11158940" />
+        <AssociationConnector Association="FastMan2V.FK__Modelo__IdMarca__60A75C0F" />
+        <AssociationConnector Association="FastMan2V.FK__Unidad__IdMarca__6383C8BA" />
+        <AssociationConnector Association="FastMan2V.FK__Material__IdUnid__2BFE89A6" />
+        <AssociationConnector Association="FastMan2V.FK__Unidad__IdModelo__6477ECF3" />
+        <AssociationConnector Association="FastMan2V.FK__Operacion__IdNiv__14270015" />
+        <AssociationConnector Association="FastMan2V.FK__Operacion__IdOpe__151B244E" />
+        <AssociationConnector Association="FastMan2V.FK__OrdenTrab__IdUni__16CE6296" />
+        <AssociationConnector Association="FastMan2V.FK__PlanTraba__IdOrd__2F9A1060" />
+        <AssociationConnector Association="FastMan2V.FK__SubProces__IdPro__48CFD27E" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdPro__534D60F1" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadPro__IdPro__589C25F3" />
+        <AssociationConnector Association="FastMan2V.FK__UsuarioPr__IdPro__07C12930" />
+        <AssociationConnector Association="FastMan2V.FK__Puesto__IdUbicac__3F466844" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdPue__4316F928" />
+        <AssociationConnector Association="FastMan2V.FK__Refaccion__IdSis__2739D489" />
+        <AssociationConnector Association="FastMan2V.FK__Refaccion__IdUni__282DF8C2" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdSub__571DF1D5" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadSub__IdSub__5C6CB6D7" />
+        <AssociationConnector Association="FastMan2V.FK__UsuarioSu__IdSub__0B91BA14" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdTra__4CA06362" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdTra__5070F446" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdTra__5441852A" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdTra__5812160E" />
+        <AssociationConnector Association="FastMan2V.FK__Trabajado__IdUbi__4BAC3F29" />
+        <AssociationConnector Association="FastMan2V.FK__Mensaje__IdUbica__7F2BE32F" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadMed__IdUbi__2180FB33" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadUbi__IdUbi__603D47BB" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadAre__IdUni__55BFB948" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadPro__IdUni__59904A2C" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadSub__IdUni__5D60DB10" />
+        <AssociationConnector Association="FastMan2V.FK__UnidadUbi__IdUni__61316BF4" />
+        <AssociationConnector Association="FastMan2V.FK__UsuarioAr__IdUsu__04E4BC85" />
+        <AssociationConnector Association="FastMan2V.FK__UsuarioPr__IdUsu__08B54D69" />
+        <AssociationConnector Association="FastMan2V.FK__UsuarioSu__IdUsu__0C85DE4D" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

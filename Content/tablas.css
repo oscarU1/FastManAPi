@@ -1,0 +1,30 @@
+﻿table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    padding: 1px;
+    background-color:rgba(52, 85, 113, 0.7); 
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+}
+
+td {
+    padding: 1px;
+    background-color: rgba(205, 212, 220, 0.7);
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dadfe4;
+}
+
+.btn {
+    border-radius: 3px;
+    height: 26px;
+    text-align: center;
+}
